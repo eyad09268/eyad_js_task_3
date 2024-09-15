@@ -1,0 +1,21 @@
+.even-box{
+    background-color: green;
+    color:white;
+    padding: 5%;
+    border-radius: 1.5rem;
+
+}
+.odd-box{
+    background-color: red;
+    color:white;
+    padding: 5%;
+    border-radius: 1.5rem;
+
+}
+#box{
+   display: flex;
+   flex-wrap: wrap;
+   align-self: center;
+   justify-content: center;
+   gap: 1.5rem;
+}
